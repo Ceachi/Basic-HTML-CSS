@@ -1,0 +1,150 @@
+
+html,body{
+    width:100vw;
+    height:100vh;
+    /*overflow: hidden; */
+}
+body{
+    margin:0px; /* suprascrie marine din browser*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.common {
+    background-color: lightgray;
+    position: fixed;
+    font-size: 30px;
+    /* seteaza spatierea stanga dreapta pt header si footer*/
+    width:95%;
+    left: 2.5%;
+}
+header{
+    top:10px;
+    text-align: center;
+}
+footer{
+    bottom:20px;
+    text-align: center;
+}
+
+main{
+    width: 80%;flex: 1;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.subtitle {
+    margin: 0px; /* eliminam marginea*/
+    text-align: center;
+    background-color:lightgray;
+    padding : 10px 0px;
+    margin-bottom: 10px;
+}
+
+article{
+    background-color:lightgray;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    overflow: auto
+}
+
+
+
+
+.textColumn1 {  
+    overflow: scroll;
+    float: left;
+   margin-left:10%;
+    width: 35%;
+    height: 410px;
+    
+    
+}
+
+.textColumn2 {
+    overflow: scroll;
+   float: left;
+    margin-left: 5%;
+    width: 35%;
+    height: 410px;
+    
+    
+}
+/* Page content */
+
+
+img {
+    float:right;
+}
+
+
+.login {
+    padding-top:30px;
+    padding-left:20%;
+    margin-left: 10%;
+    
+}
+input[type=text], select {
+    /*
+    width: 25%;
+    margin-left: 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    */
+    
+        /* width: 35%; */
+    /* padding: 12px 20px; */
+    margin-left: 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.genter {
+    padding-top:30px;
+    padding-left:20px;
+    margin-left: 20px;
+   /* display: block;*/
+}
+
+
+.left {
+  float: left;
+ /* margin: 0 1.5%;*/
+    margin-right: 30px;
+    width: 40%;
+}
+
+.right{
+  float: right;
+  margin: 30,0,0 1.5%;
+  width: 40%;
+}
+
+
+.dropdown {
+    clear:both;
+    float: left;
+    padding-left: 11px;
+    margin: 0 1.5%;
+    margin-right: 30px;
+    margin-left: 11%;
+    width: 90%;
+    margin-top: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
